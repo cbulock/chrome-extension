@@ -1,0 +1,44 @@
+body {
+ font-family: sans-serif;
+ background-color: #000;
+ width: 220px;
+ color: #FFF;
+ font-size: 90%;
+}
+
+a, a:visited, a:hover {
+ color: #FFF;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+p {
+ font-weight: bold;
+}
+
+ul {
+ list-style-type:none;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+ background-image: url(../imgs/Logo16-trans.png);
+ background-repeat: no-repeat;
+ background-position: 2px 2px; 
+ margin: 0; 
+ padding: 2px 2px 2px 22px;
+}
+
+li:nth-child(even) {
+ background-color: #444;
+}
+
+#link {
+ padding-top: 10px;
+ font-size: 80%;
+ float: right;
+}

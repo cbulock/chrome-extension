@@ -1,0 +1,23 @@
+{
+  "name": "Tickets",
+  "description": "Ticket Notifier",
+  "version": "0.6.2",
+  "icons": {
+    "16": "imgs/Logo16.png",
+    "48": "imgs/Logo48.png",
+    "128": "imgs/Logo128.png"
+  },
+  "browser_action": {
+    "default_icon": "imgs/Logo19.png",
+    "default_title": "Tickets",
+    "default_popup": "popup.html"
+  },
+  "background_page": "background.html",
+  "minimum_chrome_version": "5",
+  "update_url": "http://example.com/cbulock/chrome/tickets/tickets.xml",
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://example.com/"
+  ]
+}
